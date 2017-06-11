@@ -2,6 +2,7 @@ from sklearn import svm, metrics
 import random, re
 
 # アヤメのデータを読み込む
+# アヤメデータ https://raw.githubusercontent.com/pandas-dev/pandas/master/pandas/tests/data/iris.csv
 csv = []
 with open ('iris.csv', 'r', encoding='utf-8') as fp:
     for line in fp:
